@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 const columns = row.split(','); // Розділяємо рядок на стовпці
 
                 // Отримуємо дані з відповідних стовпців
-                const title = columns[0];
-                const text = columns[1];
+                const title = columns[10];
+                const text = columns[4];
                 const imageUrl = columns[2];
                 const date = columns[3];
 
